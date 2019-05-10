@@ -1,0 +1,183 @@
+[
+  {
+    "ts": "2018-08-16T10:26:42.278Z",
+    "level": "error",
+    "error": {
+      "name": "VersionMismatch",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "mpe2e4mm7gqu"
+            }
+          },
+          "id": "4NzwDSDlGECGIiokKomsyI",
+          "type": "Asset",
+          "createdAt": "2018-08-16T10:26:15.563Z",
+          "updatedAt": "2018-08-16T10:26:17.519Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4kSVlt6AqiCeRfgB5X02zG"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4kSVlt6AqiCeRfgB5X02zG"
+            }
+          },
+          "version": 2
+        },
+        "fields": {
+          "title": {
+            "en-US": "City"
+          },
+          "description": {
+            "en-US": "City pictured from the sky"
+          },
+          "file": {
+            "en-US": {
+              "url": "//images.ctfassets.net/mpe2e4mm7gqu/4NzwDSDlGECGIiokKomsyI/e31ba6bfb0da8fd9698f8a9319d0bf63/denys-nevozhai-100695.jpg",
+              "details": {
+                "size": 15736986,
+                "image": {
+                  "width": 3992,
+                  "height": 2992
+                }
+              },
+              "fileName": "denys-nevozhai-100695.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 409,
+        "statusText": "Conflict",
+        "message": "",
+        "details": {
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/mpe2e4mm7gqu/environments/master/assets/4NzwDSDlGECGIiokKomsyI/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/7.0.4; sdk contentful-management.js/5.2.1; platform node.js/v8.11.4; os macOS/17.7.0;",
+            "Authorization": "Bearer ...854fb",
+            "user-agent": "node.js/v8.11.4",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 2
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "f93c32a8ae81474776ae99656790e93e"
+      }
+    }
+  },
+  {
+    "ts": "2018-08-16T10:26:43.979Z",
+    "level": "error",
+    "error": {
+      "name": "VersionMismatch",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "mpe2e4mm7gqu"
+            }
+          },
+          "id": "4NzwDSDlGECGIiokKomsyI",
+          "type": "Asset",
+          "createdAt": "2018-08-16T10:26:15.563Z",
+          "updatedAt": "2018-08-16T10:26:17.519Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4kSVlt6AqiCeRfgB5X02zG"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4kSVlt6AqiCeRfgB5X02zG"
+            }
+          },
+          "version": 2
+        },
+        "fields": {
+          "title": {
+            "en-US": "City"
+          },
+          "description": {
+            "en-US": "City pictured from the sky"
+          },
+          "file": {
+            "en-US": {
+              "url": "//images.ctfassets.net/mpe2e4mm7gqu/4NzwDSDlGECGIiokKomsyI/e31ba6bfb0da8fd9698f8a9319d0bf63/denys-nevozhai-100695.jpg",
+              "details": {
+                "size": 15736986,
+                "image": {
+                  "width": 3992,
+                  "height": 2992
+                }
+              },
+              "fileName": "denys-nevozhai-100695.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 409,
+        "statusText": "Conflict",
+        "message": "",
+        "details": {
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/mpe2e4mm7gqu/environments/master/assets/4NzwDSDlGECGIiokKomsyI/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/7.0.4; sdk contentful-management.js/5.2.1; platform node.js/v8.11.4; os macOS/17.7.0;",
+            "Authorization": "Bearer ...854fb",
+            "user-agent": "node.js/v8.11.4",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 2
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "817ef28da0cf2e381e3c2ed327299326"
+      }
+    }
+  },
+  {
+    "ts": "2018-08-16T10:26:43.980Z",
+    "level": "error",
+    "error": "Could not publish the following entities: City (4NzwDSDlGECGIiokKomsyI)"
+  }
+]

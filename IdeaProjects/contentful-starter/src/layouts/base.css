@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Avenir";
+    font-weight: 400;
+    font-style: normal;
+    src: url("/avenir-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "Avenir", Tahoma, Arial, Helvetica, sasns-serif;
+    font-size: 1em;
+    line-height: 1.65;
+    color: #373F49;
+    background: #fff;
+    margin: 0;
+}
+
+Link {
+    textDecoration: 'none';
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    border-radius: 8px;
+}
+
+#instagramImg  {
+    width: 125px;
+    height: 125px;
+}
+
+#bfImg {
+    width: 125px;
+    height: 125px;
+}
+
+h1 {
+    color: #F1582A;
+    font-size: 12px;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #F1582A;
+}
+
+h3 {
+    color: #000;;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+a {
+    color: currentColor;
+}
+
+.wrapper {
+    width: calc(50% - 10vmin);
+    margin: 0 auto;
+    padding: 5vmin 0;
+}
+
+@media (min-width: 300px) {
+    .wrapper {
+        width: calc(100% - 10vmin);
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper {
+        width: calc(50% - 10vmin);
+    }
+}
+
+
+/**
+ * article grid
+ */
+.article-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 5vmin;
+    text-align: center;
+
+}
+
+@media (min-width: 300px) {
+    .article-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (min-width: 1000px) {
+    .article-list {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+.category-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1vmin;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+
+.catbox {
+    border-color: #3D5B80;
+    border-style: solid;
+}
+
+/**
+ *
+ */
+.section-headline {
+    padding: 0 0 0.4em 0;
+    margin: 0 0 5vmin 0;
+    border-bottom: 1px solid #373F49;
+    color: #000;
+    font-weight: bold;
+}
+
+.section-bottomLine {
+    padding: 0 0 0.4em 0;
+    margin: 0 0 5vmin 0;
+    color: #000;
+    font-weight: bold;
+}
+
+
+/**
+ *
+ */
+.list-inline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline-block;
+}
+

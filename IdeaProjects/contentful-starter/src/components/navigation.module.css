@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 3em;
+    max-height: 100px;
+    font-size: 1.0em;
+    color: #000;
+}
+
+.navigationItem {
+    display: inline-flex;
+    align-items: center;
+}
+
+.navigationItem a {
+}
+
+@media (min-width: 300px) {
+    .navigation {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 1000px) {
+    .navigation {
+        font-size: 1.8em;
+    }
+}
