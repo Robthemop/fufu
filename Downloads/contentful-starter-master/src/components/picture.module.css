@@ -1,0 +1,31 @@
+.picture {
+    position: relative;
+    background: #fff;
+    text-align: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.pictureImg {
+    max-height: 800px;
+    max-width: 100%;
+}
+
+@media (min-width: 300px) {
+    .pictureImg {
+        width: 100%
+    }
+}
+
+@media (min-width: 1600px) {
+    .pictureImg {
+        width: 60%
+    }
+
+}
+
+.p img {
+    width: 50%;
+    margin: 2em 25%;
+}
+

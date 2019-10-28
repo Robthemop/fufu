@@ -1,0 +1,9 @@
+
+.footerBox{
+    justify-content: space-evenly;
+    width: 100%;
+    color: black;
+    flex-direction: row;
+    display: flex;
+    font-size: 1em;
+}

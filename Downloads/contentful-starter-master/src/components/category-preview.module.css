@@ -1,0 +1,20 @@
+.categoryTitle {
+    font-size: 3em;
+    color: #000;
+}
+
+.tag {
+    color: #A0A0A0;
+    text-decoration: none;
+    display: inline-block;
+    padding: .33333rem .5rem;
+    line-height: 1;
+    border-radius: 2px;
+    margin-right: .5em;
+    margin-top: 10px;
+}
+
+.preview {
+    margin-top: 2;
+}
+

@@ -1,0 +1,27 @@
+.previewTitle {
+    font-size: 1.5em;
+}
+
+.tag {
+    color: #A0A0A0;
+    text-decoration: none;
+    display: inline;
+    padding: .33333rem .5rem;
+    line-height: 1;
+    border-radius: 2px;
+    margin-right: .5em;
+}
+
+.preview {
+    border-bottom: 1.5px solid #3D5B80;
+}
+
+.description {
+    font-size: 1em;
+}
+
+h3 {
+    color: #000;;
+    font-size: 2em;
+    font-weight: bold;
+}
