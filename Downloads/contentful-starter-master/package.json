@@ -36,7 +36,7 @@
     "prettier": "^1.10.2",
     "react-social-icons": "^4.1.0",
     "rimraf": "^2.6.2",
-    "yargs-parser": "^10.1.0"
+    "yargs-parser": "^13.1.2"
   },
   "homepage": "https://boulderboys.de",
   "keywords": [
